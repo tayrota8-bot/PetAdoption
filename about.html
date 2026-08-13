@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — PetAdoption</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-inner">
+      <a href="index.html"href="/" class="logo">
+  <svg width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <clipPath id="khHeartClip">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#khHeartClip)">
+      <rect x="0" y="0" width="24" height="24" fill="#032ea1"/>
+      <rect x="0" y="7" width="24" height="10" fill="#e00025"/>
+    </g>
+  </svg>
+  PetAdoption
+</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="dog.html">Available pets</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="adopt.html" class="btn-nav">Adopt Now</a>
+      </nav>
+      <button class="hamburger" onclick="document.getElementById('mobile-nav').classList.toggle('open')">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="dog.html">Available pets</a>
+      <a href="about.html">About Us</a>
+      <a href="adopt.html" class="btn-nav">Adopt Now</a>
+    </div>
+  </header>
+
+  <main style="padding:2rem 0 4rem">
+    <div class="container">
+
+      <div class="page-header">
+        <div class="info-icon" style="margin:0 auto 1rem">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h1>About PetAdoption</h1>
+        <p>We're dedicated to rescuing, rehabilitating, and rehoming pets in need. Every pet deserves a second chance at happiness.</p>
+      </div>
+
+      <!-- Mission & Impact -->
+      <div class="info-grid" style="margin-bottom:3rem">
+        <div class="info-card" style="text-align:left">
+          <div class="info-icon" style="margin:0 0 1rem">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <h3>Our Mission</h3>
+          <p>PetAdoption was founded in 2010 with a simple mission: to save the lives of abandoned and neglected pets. We work tirelessly to provide medical care, training, and love to every pet that comes through our doors, preparing them for their forever homes.</p>
+        </div>
+        <div class="info-card" style="text-align:left">
+          <div class="info-icon" style="margin:0 0 1rem">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Our Impact</h3>
+          <div class="stats-grid" style="grid-template-columns:1fr;margin-bottom:0">
+            <div class="stat-card"><div class="stat-number">2,500+</div><div class="stat-label">Pets Rescued</div></div>
+            <div class="stat-card"><div class="stat-number">2,300+</div><div class="stat-label">Successful Adoptions</div></div>
+            <div class="stat-card"><div class="stat-number">98%</div><div class="stat-label">Adoption Success Rate</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Values -->
+      <h2 class="section-title" style="margin-bottom:1.5rem">Our Values</h2>
+      <div class="info-grid" style="margin-bottom:3rem">
+        <div class="info-card">
+          <div class="info-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Compassion</h3>
+          <p>Every pet receives the care, patience, and love they deserve without exception.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Community</h3>
+          <p>We build lasting relationships with adopters, fosters, volunteers, and supporters.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <h3>Excellence</h3>
+          <p>We maintain the highest standards in animal care and the adoption screening process.</p>
+        </div>
+      </div>
+
+      <!-- Process -->
+      <div style="background:linear-gradient(135deg,rgba(30,58,138,0.2),rgba(30,58,138,0.05));border:1px solid var(--border);border-radius:0.75rem;padding:2.5rem">
+        <h2 class="section-title" style="margin-bottom:2rem">How We Help</h2>
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <h3>Rescue</h3>
+            <p>We rescue animals from shelters, streets, and difficult situations across the region.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <h3>Rehabilitate</h3>
+            <p>Provide full medical care, behavioral training, and socialization.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <h3>Match</h3>
+            <p>Connect pets with compatible, loving families based on lifestyle fit.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">4</div>
+            <h3>Support</h3>
+            <p>Provide ongoing guidance and resources to adopters after placement.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <a href="/" class="logo">
+  <svg width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <clipPath id="khHeartClip">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#khHeartClip)">
+      <rect x="0" y="0" width="24" height="24" fill="#032ea1"/>
+      <rect x="0" y="7" width="24" height="10" fill="#e00025"/>
+    </g>
+  </svg>
+  PetAdoption
+</a>
+        <p>Connecting loving homes with pets in need.</p>
+      </div>
+      <div><h4>Quick Links</h4><a href="dog.html">Available Pets</a><a href="adopt.html">Adoption Process</a><a href="about.html">About Us</a></div>
+      <div><h4>Contact</h4><p style="color:var(--muted)"> +855 123-4567<br>info@petadoption.org</p></div>
+      <div><h4>Visit Us</h4><p>Mon–Fri: 10am–6pm<br>Sat: 10am–3pm<br></p></div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 PetAdoption,All rights reserved.</div>
+  </footer>
+
+</body>
+</html>

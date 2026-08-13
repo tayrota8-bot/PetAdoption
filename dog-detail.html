@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Detail — PetAdoption</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-inner">
+      <a href="index.html" href="/" class="logo">
+  <svg width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <clipPath id="khHeartClip">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#khHeartClip)">
+      <rect x="0" y="0" width="24" height="24" fill="#032ea1"/>
+      <rect x="0" y="7" width="24" height="10" fill="#e00025"/>
+    </g>
+  </svg>
+  Petdoption
+</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="dog.html">Available Pets</a>
+        <a href="about.html">About Us</a>
+        <a href="adopt.html" class="btn-nav">Adopt Now</a>
+      </nav>
+      <button class="hamburger" onclick="document.getElementById('mobile-nav').classList.toggle('open')">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="dog.html">Available Pets</a>
+      <a href="about.html">About Us</a>
+      <a href="adopt.html" class="btn-nav">Adopt Now</a>
+    </div>
+  </header>
+
+  <main style="padding:2rem 0 4rem">
+    <div class="container" id="detail-container">
+      <div class="loading">Loading pet profile...</div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <a href="/" class="logo">
+  <svg width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <clipPath id="khHeartClip">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#khHeartClip)">
+      <rect x="0" y="0" width="24" height="24" fill="#032ea1"/>
+      <rect x="0" y="7" width="24" height="10" fill="#e00025"/>
+    </g>
+  </svg>
+  PetAdoption
+</a>
+        <p>Connecting loving homes with pets in need.</p>
+      </div>
+      <div><h4>Quick Links</h4><a href="dog.html">Available pets</a><a href="adopt.html">Adoption Process</a><a href="about.html">About Us</a></div>
+      <div><h4>Contact</h4><p style="color:var(--muted)">(+855) 123-4567<br>info@petadoption.org<br>123 Rescue St, City</p></div>
+      <div><h4>Visit Us</h4><p>Mon–Fri: 10am–6pm<br>Sat: 10am–3pm<br></p></div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 PetAdoption. All rights reserved.</div>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/dog-detail.js"></script>
+</body>
+</html>
